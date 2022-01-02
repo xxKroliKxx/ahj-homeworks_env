@@ -6,7 +6,7 @@ const common = require('./webpack.common');
 module.exports = merge(common, {
   mode: 'production',
   optimization: {
-    minimize: true,
+    //minimize: true,
     // minimizer: [
     //   new OptimizeCSSAssetsPlugin({}),
     //   '...',
